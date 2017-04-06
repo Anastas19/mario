@@ -11,5 +11,17 @@ namespace Mario
         int horizontalSpeed;
         int verticalSpeed;
 
+        void setVerticalSpeed(int v)
+        {
+            verticalSpeed = v;
+
+        }
+
+        void setHorizontalSpeed(int h)
+        {
+            horizontalSpeed = h;
+
+        }
+
     }
 }
