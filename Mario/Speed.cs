@@ -22,6 +22,10 @@ namespace Mario
             horizontalSpeed = h;
 
         }
-
+        Speed(int h = 0 ,int v = 0)
+        {
+            verticalSpeed = v;
+            horizontalSpeed = h;
+        }
     }
 }
